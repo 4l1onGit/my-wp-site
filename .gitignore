@@ -1,0 +1,43 @@
+# WP CORE FILES
+wp/*
+!wp/wp-content/
+!wp/wp-content/plugins/
+
+# WP CONTENT FILES
+
+wp/wp-content/*
+!wp/wp-content/themes/
+wp/wp-content/themes/*
+!wp/wp-content/themes/custom-theme/
+
+
+# -------------------------
+wp/wp-content/uploads/
+
+
+# DDEV environment files
+
+.ddev/
+
+# -------------------------
+# Node / Build tools
+# -------------------------
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+dist/
+build/
+
+# -------------------------
+# Composer
+# -------------------------
+vendor/
+composer.lock
+
+# -------------------------
+# System files
+# -------------------------
+.DS_Store
+Thumbs.db
+*.log
